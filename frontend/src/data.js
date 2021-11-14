@@ -1,0 +1,72 @@
+const data = {
+    products: [
+        {
+            _id: '1',
+            name: 'graps plant',
+            category: 'vine',
+            price: 120,
+            image: '/images/img1.jpg',
+
+            brand: 'ankur',
+            rating: 4.5,
+            numRevies: 10,
+            description: "high quality graps plants",
+        },
+        {
+            _id: '2',
+            name: 'papaya plant',
+            category: 'woody',
+            price: 120,
+            image: '/images/img1.jpg',
+            brand: 'jk',
+            rating: 2.3,
+            numRevies: 20,
+            description: "high quality plants",
+        },
+        {
+            _id: '3',
+            name: 'mango plant',
+            category: 'woody',
+            price: 120,
+            image: '/images/img1.jpg',
+            brand: 'purika',
+            rating: 4.2,
+            numRevies: 12,
+            description: "high quality plants",
+        },
+        {
+            _id: '4',
+            name: 'graps plant',
+            category: 'vine',
+            price: 130,
+            image: '/images/img1.jpg',
+            brand: 'viners',
+            rating: 4.8,
+            numRevies: 30,
+            description: "high quality graps plants",
+        },
+        {
+            _id: '5',
+            name: 'mixika plant',
+            category: 'woody',
+            price: 100,
+            image: '/images/img1.jpg',
+            brand: 'ankur',
+            rating: 4.0,
+            numRevies: 6,
+            description: "high quality mixi plants",
+        },
+        {
+            _id: '6',
+            name: 'mixika plant',
+            category: 'woody',
+            price: 200,
+            image: '/images/img1.jpg',
+            brand: 'ajeshta',
+            rating: 5,
+            numRevies: 35,
+            description: "high quality mixi plants",
+        }
+    ]
+};
+export default data;
