@@ -9,7 +9,7 @@ const data = {
 
             brand: 'ankur',
             rating: 4.5,
-            numRevies: 10,
+            numReviews: 10,
             description: "high quality graps plants",
         },
         {
@@ -20,7 +20,7 @@ const data = {
             image: '/images/img1.jpg',
             brand: 'jk',
             rating: 2.3,
-            numRevies: 20,
+            numReviews: 20,
             description: "high quality plants",
         },
         {
@@ -31,7 +31,7 @@ const data = {
             image: '/images/img1.jpg',
             brand: 'purika',
             rating: 4.2,
-            numRevies: 12,
+            numReviews: 12,
             description: "high quality plants",
         },
         {
@@ -42,7 +42,7 @@ const data = {
             image: '/images/img1.jpg',
             brand: 'viners',
             rating: 4.8,
-            numRevies: 30,
+            numReviews: 30,
             description: "high quality graps plants",
         },
         {
@@ -53,7 +53,7 @@ const data = {
             image: '/images/img1.jpg',
             brand: 'ankur',
             rating: 4.0,
-            numRevies: 6,
+            numReviews: 6,
             description: "high quality mixi plants",
         },
         {
@@ -64,7 +64,7 @@ const data = {
             image: '/images/img1.jpg',
             brand: 'ajeshta',
             rating: 5,
-            numRevies: 35,
+            numReviews: 35,
             description: "high quality mixi plants",
         }
     ]
