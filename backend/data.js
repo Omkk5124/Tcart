@@ -1,4 +1,4 @@
-import bcrpyt from 'bcryptjs'
+//import bcrpyt from 'bcryptjs'
 
 
 const data = {
