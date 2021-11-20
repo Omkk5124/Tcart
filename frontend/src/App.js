@@ -36,6 +36,8 @@ function App() {
               {cartItems.length > 0 && (
                 <span className="badge">{cartItems.length}</span>
               )}</Link>
+            <a href="http://127.0.0.1:5000/" target="_blank">Recommendations
+            </a>
             {userInfo ? (
               <div className="dropdown">
                 <Link to="#">
@@ -64,7 +66,22 @@ function App() {
           <Route path="/register" component={RegisterScreen}></Route>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
-        <footer className="row center">TCART LIMITED</footer>
+        <footer className="footer">
+            <div className="footer-container">
+              <h2 className="footer-logo">
+                  TCART
+              </h2>
+              <p id="madeBy">Made with ❤️ by:</p>
+              <p>
+                <ul id="Name-list">
+                  <li>Jayant Khandebharad</li>
+                  <li>Rutuja Labhshetwar</li>
+                  <li>Vaishnavi Dhakare</li>
+                  <li>Om Khedkar</li>
+                </ul>
+              </p>
+            </div>
+	    </footer>
       </div>
     </BrowserRouter>
   );
