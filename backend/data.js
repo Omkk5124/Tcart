@@ -1,4 +1,21 @@
+import bcrpyt from 'bcryptjs'
+
+
 const data = {
+    users:[
+{
+    name:"Admin",
+    email:'admin@ex.com',
+    password:   '1234',
+    isAdmin:true
+},
+{
+    name:"John",
+    email:'john@ex.com',
+    password:   '1234',
+    isAdmin:false
+}
+    ],
     products: [
         {
             _id: '1',
